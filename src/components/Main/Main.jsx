@@ -11,7 +11,8 @@ import Materials from "../Materials/Materials";
 import { getModal } from "../../store/modal/modalActions";
 import Products from "../Products/Products";
 import Reviews from "../Reviews/Reviews";
-import Contacts from "../Сontacts/Сontacts";
+import Contacts from "../Contacts/Contacts";
+
 
 function Main() {
   const isModalOpen = useSelector( selectModal );
@@ -32,8 +33,8 @@ function Main() {
       <StagesBanner/>
       <Materials handleOpenModal={ handleOpenModal }/>
       <Products/>
-      <Reviews />
-      <Contacts />
+      <Reviews/>
+      <Contacts/>
 
       { isModalOpen && <Modal/> }
     </div>

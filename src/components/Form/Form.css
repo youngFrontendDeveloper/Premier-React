@@ -40,7 +40,7 @@
 
 .form__item[placeholder="Введите свое имя"]::placeholder,
 .form__item[placeholder="Введите свой телефон"]::placeholder {
-  color: #bd0c0c;
+  color:  #e70404;
   text-overflow:ellipsis;
 }
 

@@ -40,22 +40,6 @@
     }
   }
 
-  .contacts__text-mob {
-    margin-bottom: 32px;
-    line-height: 20px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    .contacts__text-mob {
-      display: none;
-    }
-  }
-
-  .contacts__text {
-    display: none;
-  }
-
-  @media screen and (min-width: 1200px) {
     .contacts__text {
       display: block;
       margin-bottom: 40px;
@@ -63,7 +47,7 @@
       font-size: 18px;
       line-height: 17px;
     }
-  }
+
 
   .contacts__form-input {
     margin-bottom: 32px;
@@ -102,3 +86,8 @@
       height: 360px;
     }
   }
+
+.form__item[placeholder="Введите email"]::placeholder {
+  color: #e70404;
+  text-overflow:ellipsis;
+}
