@@ -1,0 +1,258 @@
+
+/***************** Warranty *****************/
+
+.warranty {
+  display: none;
+  position: absolute;
+  width: 124px;
+  height: 147px;
+  padding-top: 30px;
+  color: #FFFFFF;
+  text-align: center;
+  background-image: url(../../img/warranty-bg.svg);
+  background-repeat: no-repeat;
+  z-index: 5;
+}
+
+@media screen and (min-width: 992px) {
+  .warranty {
+    display: block;
+  }
+}
+
+.warranty__text {
+  font-size: 17px;
+  line-height: 16px;
+}
+
+.warranty__number {
+  font-size: 61px;
+  line-height: 58px;
+}
+
+.warranty__big-text {
+  font-size: 26px;
+  line-height: 24.88px;
+}
+
+/****************** Info **************/
+
+.info {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.info-item {
+  width: 45%;
+}
+
+.info__number {
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 65px;
+}
+
+.info__text {
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+
+/********************** About *******/
+.about {
+  padding-top: 55px;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 1200px) {
+  .about {
+    padding-top: 80px;
+    padding-bottom: 0;
+  }
+}
+
+.about__title {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1200px) {
+  .about__title {
+    margin-bottom: 56px;
+  }
+}
+
+.about__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 1200px) {
+  .about__wrapper {
+    justify-content: space-between;
+  }
+}
+
+.about__img-block {
+  position: relative;
+}
+
+.about__img {
+  width: 100%;
+  height: auto;
+  margin-left: -16px;
+  margin-right: -16px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 1200px) {
+  .about__img {
+    width: 600px;
+    margin-bottom: 104px;
+  }
+}
+
+.about__warranty {
+  top: -40px;
+  left: -45px;
+}
+
+.about__text-block {
+  width: 100%;
+  flex-basis: 200px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+
+/*// @media screen and (min-width: 622px) {*/
+/*//   margin-left: 40px;*/
+/*// }*/
+
+@media screen and (min-width: 768px) {
+  .about__text-block {
+    flex-basis: 400px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .about__text-block {
+    padding-left: 0;
+    padding-right: 74px;
+    flex-basis: 370px;
+    order: -1;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about__text-block {
+    max-width: 530px;
+  }
+}
+
+.about__subtitle {
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 1200px) {
+  .about__subtitle {
+    margin-bottom: 24px;
+  }
+}
+
+.about__text {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1200px) {
+  .about__text {
+    margin-bottom: 60px;
+  }
+}
+
+.about__button-block {
+  margin-bottom: 56px;
+}
+
+@media screen and (min-width: 1200px) {
+  .about__button-block {
+    margin-bottom: 104px;
+  }
+}
+
+.about__banner {
+  width: 100%;
+  height: 373px;
+  padding: 48px 16px 56px 0;
+  background: linear-gradient(90deg, #F7F9FA 54.69%, rgba(247, 249, 250, 0.646647) 73.57%, rgba(247, 249, 250, 0) 100%), url(../../img/about-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0, 0 center;
+}
+
+@media screen and (min-width: 768px) {
+  .about__banner {
+    background: linear-gradient(90deg, #F7F9FA 54.69%, rgba(247, 249, 250, 0.646647) 73.57%, rgba(247, 249, 250, 0) 100%), url(../../img/about-2-desktop.jpg);
+    background-position: 0 0, right center;
+  }
+}
+
+@media (min-resolution: 144dpi),
+(min-resolution: 1.5dppx) {
+  .about__banner {
+    background: linear-gradient(90deg, #F7F9FA 54.69%, rgba(247, 249, 250, 0.646647) 73.57%, rgba(247, 249, 250, 0) 100%), url(../../img/about-2@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  @media (min-resolution: 144dpi),
+  (min-resolution: 1.5dppx) {
+    .about__banner {
+      background: linear-gradient(90deg, #F7F9FA 54.69%, rgba(247, 249, 250, 0.646647) 73.57%, rgba(247, 249, 250, 0) 100%), url(../../img/about-2-desktop@2x.jpg);
+
+    }
+  }
+}
+
+.about__slogan {
+  max-width: 480px;
+  font-size: 26px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 1200px) {
+  .about__slogan {
+    margin-bottom: 32px;
+  }
+}
+
+.about__banner-text {
+  margin-bottom: 26px;
+}
+
+@media screen and (min-width: 1200px) {
+  .about__banner-text {
+    margin-bottom: 24px;
+  }
+}
+
+.about__bold {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.about__info {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .about__info {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 224px;
+    margin-bottom: 56px;
+  }
+}

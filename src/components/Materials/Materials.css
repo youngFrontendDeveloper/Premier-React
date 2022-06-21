@@ -1,0 +1,172 @@
+.materials {
+  padding-top: 56px;
+}
+
+@media screen and (min-width: 1200px) {
+  .materials {
+    padding-top: 128px;
+  }
+}
+
+.materials__title {
+  margin-bottom: 40px;
+}
+
+.materials__items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.materials__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 40%;
+  height: auto;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 992px) {
+  .materials__item {
+    width: 24%;
+  }
+}
+
+.materials__img {
+  display: block;
+  width: auto;
+  height: 131px;
+  margin-bottom: 8px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1200px) {
+  .materials__img {
+    height: 251px;
+    margin-bottom: 34px;
+  }
+}
+
+.materials__name-block {
+  display: flex;
+  align-items: center;
+  height: 72px;
+}
+
+@media screen and (min-width: 1200px) {
+  .materials__name-block {
+    height: 100px;
+  }
+}
+
+.materials__name {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.materials__banner {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  background-color: #F1F4F5;
+}
+
+@media screen and (min-width: 1200px) {
+  .materials__banner {
+    background: #F1F4F5 url(./img/materials-bg.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+  }
+}
+
+.materials__slogan {
+  margin-bottom: 39px;
+}
+
+@media screen and (min-width: 1200px) {
+  .materials__slogan {
+    margin-bottom: 64px;
+  }
+}
+
+.materials__tabs {
+  margin-bottom: 25px;
+}
+
+/***************** tabs ***********************/
+
+.tabs__title {
+  padding-bottom: 4px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: inherit;
+  opacity: 0.3;
+  border: 0;
+  border-bottom: 4px solid transparent;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 1200px) {
+  .tabs__title {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+.tabs__title:hover {
+  cursor: pointer;
+}
+
+.tabs__title--active {
+  opacity: 1;
+}
+
+.tabs__title--active:hover {
+  cursor: default;
+}
+
+
+.tabs__title-colors-wood {
+  margin-right: 32px;
+}
+
+.tabs__content {
+  margin-bottom: 40px;
+  overflow-x: hidden;
+}
+
+.tabs__content-item {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+  width: 497px;
+  height: 326px;
+}
+
+@media screen and (min-width: 1200px) {
+  .tabs__content-item {
+    width: 536px;
+  }
+}
+
+.tabs__content-img {
+  display: block;
+  width: 98px;
+  height: 98px;
+  text-align: center;
+}
+
+.tabs__content-title {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  color: #000000;
+}

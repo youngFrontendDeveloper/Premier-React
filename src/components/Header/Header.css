@@ -1,0 +1,49 @@
+.header__top {
+  height: 44px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+@media screen and (min-width: 1200px) {
+  .header__top {
+    display: none;
+  }
+}
+
+.header__time {
+  /*width: 28px;*/
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.header__indicators {
+  display: flex;
+  width: 67px;
+}
+
+.header__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+@media screen and (min-width: 1200px) {
+  .header__bottom {
+    height: 104px;
+  }
+}
+
+.header__grid {
+  display: grid;
+  grid-template-columns: 63px auto 30px;
+  grid-template-areas: "logo phone nav";
+  justify-items : center;
+  align-items: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .header__grid {
+    grid-template-columns: 73px auto auto;
+    grid-template-areas: "logo nav phone";
+  }
+}

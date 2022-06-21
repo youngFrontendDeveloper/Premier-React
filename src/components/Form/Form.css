@@ -1,0 +1,91 @@
+.form {
+  position: relative;
+  width: 296px;
+  font-family: inherit;
+  font-style: inherit;
+}
+
+/*.form__error-wrap {*/
+/*  position: relative;*/
+/*}*/
+
+.form__error-name {
+  /*position: absolute;*/
+  /*top: 0px;*/
+  /*right: -100px;*/
+  /*width: 100px;*/
+  color: #bd0c0c;
+  font-size: 10px;
+}
+
+.form__error-phone{
+  /*position: absolute;*/
+  /*top: 73px;*/
+  /*right: -100px;*/
+  /*width: 100px;*/
+  color: #bd0c0c;
+  font-size: 10px;
+}
+
+.form__item {
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 20px 24px 19px 24px;
+}
+
+.form__item--bgGrey {
+  background-color: #F1F4F5;
+}
+
+.form__item[placeholder="Введите свое имя"]::placeholder,
+.form__item[placeholder="Введите свой телефон"]::placeholder {
+  color: #bd0c0c;
+  text-overflow:ellipsis;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 32px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 14px;
+  color: #212B31;
+  text-align: left;
+}
+
+.form__check {
+  display: none;
+}
+
+.form__checkmark {
+  position: relative;
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  background-color: #212B31;
+  float: left;
+}
+
+.form__label:hover,
+.form__checkmark:hover {
+  cursor: pointer;
+}
+
+.form__check:checked ~ .form__checkmark::after {
+  content: "";
+  position: absolute;
+  top: 7.5px;
+  left: 6.38px;
+  width: 11.25px;
+  height: 9px;
+  background-image: url(../../img/check.svg);
+  background-repeat: no-repeat;
+  z-index: 5;
+}
+
+.status {
+  color: #038c75;
+  /*font-weight: bold;*/
+}

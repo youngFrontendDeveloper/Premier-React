@@ -1,0 +1,10 @@
+.bar {
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin-bottom: 4px;
+    background-color: #000000;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+

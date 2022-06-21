@@ -1,0 +1,22 @@
+.logo {
+  display: block;
+  width: 62px;
+  height: 48px;
+}
+
+.logo {
+  grid-area: logo;
+}
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    width: 73px;
+    height: 56px;
+  }
+}
+
+.logo--footer {
+  width: 112px;
+  height: 86px;
+
+}
