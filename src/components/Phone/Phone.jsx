@@ -1,11 +1,8 @@
 import "./Phone.css";
 
-function Phone() {
+function Phone({phoneClass}) {
   return (
-    <p>
-      <strong className="phone__text">Бесплатный звонок:</strong>
-      <a href="tel:+79999214124" className="link phone__link">+7 999 921 41 24</a>
-    </p>
+      <a href="tel:+79999214124" className={phoneClass}>+7 999 921 41 24</a>
   );
 }
 

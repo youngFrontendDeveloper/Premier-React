@@ -6,6 +6,9 @@ import Navigation from "../Navigation/Navigation";
 import Phone from "../Phone/Phone";
 
 function Header() {
+  const isHeader = true;
+  const phoneClass ="link phone__link"
+
   return (
     <header className="header">
       <div className="header__top">
@@ -16,8 +19,12 @@ function Header() {
       </div>
       <div className="header__bottom">
         <div className="container header__grid">
-          <Logo/>
-          <Phone/>
+          <Logo isHeader={isHeader}/>
+          <p>
+            <strong className="phone__text">Бесплатный звонок:</strong>
+            <Phone phoneClass={phoneClass}/>
+          </p>
+
           <Navigation/>
         </div>
       </div>

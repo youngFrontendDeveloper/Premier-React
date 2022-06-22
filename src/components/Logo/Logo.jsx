@@ -1,13 +1,14 @@
 import "./Logo.css";
-import { ReactComponent as CompanyLogo } from "../../img/logo.svg";
-import { NavLink } from "react-router-dom";
+import { ReactComponent as HeaderLogo } from "./img/logo.svg";
+import {ReactComponent as FooterLogo} from "./img/logo-footer.svg"
 
-function Logo() {
+
+function Logo({isHeader, logoClass}) {
   return (
     <>
-      <NavLink to="/" className="logo">
-        <CompanyLogo/>
-      </NavLink>
+      <a href="/" className={ isHeader ? "logo" : `logo logo--footer ${logoClass}`}>
+        { isHeader ? <HeaderLogo/> : <FooterLogo />}
+      </a>
     </>
   );
 }
