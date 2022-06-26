@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.6ed6e80b.css",
-    "main.js": "./static/js/main.d732977f.js",
+    "main.css": "./static/css/main.2e78df11.css",
+    "main.js": "./static/js/main.3b22d9c2.js",
     "static/media/banner@2x.jpg": "./static/media/banner@2x.c27d1f9d87db3a887b10.jpg",
     "static/media/banner-mb@2x.jpg": "./static/media/banner-mb@2x.e15ede9624c73695f777.jpg",
     "static/media/banner.jpg": "./static/media/banner.43455f876896f812a10d.jpg",
@@ -14,6 +14,7 @@
     "static/media/about-2@2x.jpg": "./static/media/about-2@2x.9bc9907672b98e1f1690.jpg",
     "static/media/about1desktop.jpg": "./static/media/about1desktop.d38845b7be174428f925.jpg",
     "static/media/about-2-desktop.jpg": "./static/media/about-2-desktop.db791980e6459802da07.jpg",
+    "static/media/contacts-bg@2x.jpg": "./static/media/contacts-bg@2x.07053b205ad1b7560f40.jpg",
     "static/media/stages-bg-desktop.jpg": "./static/media/stages-bg-desktop.52954e36387938616826.jpg",
     "static/media/about1.jpg": "./static/media/about1.7a955bfa85fc0bdf49e2.jpg",
     "static/media/about-2.jpg": "./static/media/about-2.363cf879e30192be1930.jpg",
@@ -55,11 +56,11 @@
     "static/media/arrow.svg": "./static/media/arrow.012751ad0f8aee36667081578b3ab397.svg",
     "static/media/dashed-top-desktop.svg": "./static/media/dashed-top-desktop.1c653aae54ba8963f7f7c3329cf9c079.svg",
     "static/media/dashed-bottom.svg": "./static/media/dashed-bottom.37be86b546f8cfc5296157f95c7d15b1.svg",
-    "main.6ed6e80b.css.map": "./static/css/main.6ed6e80b.css.map",
-    "main.d732977f.js.map": "./static/js/main.d732977f.js.map"
+    "main.2e78df11.css.map": "./static/css/main.2e78df11.css.map",
+    "main.3b22d9c2.js.map": "./static/js/main.3b22d9c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ed6e80b.css",
-    "static/js/main.d732977f.js"
+    "static/css/main.2e78df11.css",
+    "static/js/main.3b22d9c2.js"
   ]
 }

@@ -2,9 +2,6 @@
   display: block;
   width: 62px;
   height: 48px;
-}
-
-.logo {
   grid-area: logo;
 }
 
@@ -18,5 +15,5 @@
 .logo--footer {
   width: 112px;
   height: 86px;
-
+  cursor: pointer
 }

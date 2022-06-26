@@ -2,37 +2,63 @@ import "./Footer.css";
 import Logo from "../Logo/Logo";
 import Phone from "../Phone/Phone";
 import Button from "../Button/Button";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Footer({ handleOpenModal }) {
   const isHeader = false;
-  const phoneClass = "footer__contacts-phone";
+  const phoneClass = "phone--white";
   const buttonText = "Отправить заявку";
   const buttonClass = "footer__button-block";
   const buttonClick = handleOpenModal;
-  const logoClass="footer__logo"
+  const logoClass = "footer__logo";
 
   return (
     <footer>
       <div className="footer__top">
         <div className="container footer__top-wrap">
-          <Logo isHeader={ isHeader } logoClass={logoClass}/>
+          <Logo isHeader={ isHeader } logoClass={ logoClass }/>
           <nav className="footer__nav">
             <h4 className="footer__title">Навигация</h4>
             <ul className="footer__menu">
               <li className="footer__menu-item">
-                <a href="#about" className="link menu-link--white">О нас</a>
+                <Link to="about"
+                      spy={ true }
+                      smooth={ true }
+                      offset={ -70 }
+                      duration={ 500 }
+                      className="footer__menu-link">О нас</Link>
               </li>
               <li className="footer__menu-item">
-                <a href="#our-works" className="link menu-link--white">Наши работы</a>
+                <Link to="our-works"
+                      spy={ true }
+                      smooth={ true }
+                      offset={ -70 }
+                      duration={ 500 }
+                      className="footer__menu-link">Наши работы</Link>
               </li>
               <li className="footer__menu-item">
-                <a href="#stages-work" className="link menu-link--white">Этапы работы</a>
+                <Link to="stages-work"
+                      spy={ true }
+                      smooth={ true }
+                      offset={ -70 }
+                      duration={ 500 }
+                      className="footer__menu-link">Этапы работы</Link>
               </li>
               <li className="footer__menu-item">
-                <a href="#reviews" className="link menu-link--white">Отзывы</a>
+                <Link to="reviews"
+                      spy={ true }
+                      smooth={ true }
+                      offset={ -70 }
+                      duration={ 500 }
+                      className="footer__menu-link">Отзывы</Link>
               </li>
               <li className="footer__menu-item">
-                <a href="#contacts" className="link menu-link--white">Контакты</a>
+                <Link to="contacts"
+                      spy={ true }
+                      smooth={ true }
+                      offset={ -70 }
+                      duration={ 500 }
+                      className="footer__menu-link">Контакты</Link>
               </li>
             </ul>
           </nav>

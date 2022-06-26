@@ -33,8 +33,8 @@ function ReviewsSlider() {
   return (
     <Slider { ...settings }>
       {
-        reviews.map( item => (
-          <ReviewsSliderItem item={ item }/>
+        reviews.map( (item, index) => (
+          <ReviewsSliderItem key={`review-${index}`} item={ item }/>
         ) )
       }
 

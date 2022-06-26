@@ -9,7 +9,7 @@ function Stages() {
   const num2 = 2;
   const num3 = 3;
   const stagesText1="Бесплатный выезд к заказчику и бесплатный замер окон"
-  const stagesText2="Изготовление окон с точным соблюдением сроков"
+  const stagesText2="Изготовление окон из высококачественного материала с точным соблюдением сроков"
   const stagesText3="Установка окон у заказчика"
 
   return (

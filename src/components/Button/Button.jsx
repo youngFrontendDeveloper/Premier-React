@@ -5,7 +5,7 @@ function Button({ text, link, buttonClick, buttonClass }) {
 
   return (
     <div className={`button-block ${buttonClass}`} onClick={buttonClick}>
-      <a href={ link } className="button banner__btn modal-btn">
+      <a href={ link } className="button ">
         { text }
       </a>
     </div>

@@ -5,7 +5,7 @@ import { wood, usual } from "../../constants/materials";
 import Button from "../Button/Button";
 
 
-function MaterialsBanner({handleOpenModal}) {
+function MaterialsBanner({ handleOpenModal }) {
   const [ isWood, setWood ] = useState( true );
   const buttonText = "Задать вопрос менеджеру";
 
@@ -42,8 +42,8 @@ function MaterialsBanner({handleOpenModal}) {
             isWood ?
               ( <div className="tabs__content-item ">
                 {
-                  wood.map( item => (
-                    <MaterialsBannerItem item={ item }/>
+                  wood.map( (item, index) => (
+                    <MaterialsBannerItem key={ `materials-${ index }` } item={ item }/>
                   ) )
                 }
 

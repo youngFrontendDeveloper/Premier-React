@@ -1,0 +1,1 @@
+export const urlMessage = "https://uchim-veselo.ru/api/messange"

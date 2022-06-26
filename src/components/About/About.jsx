@@ -1,14 +1,12 @@
 import "./About.css";
 import about2x from "./img/about1@2x.jpg";
 import aboutDesktop2x from "./img/about1desktop@2x.jpg";
-import Button from "../Button/Button";
 import Title from "../Title/Title";
 import AboutBanner from "./AboutBanner";
 import { useMediaQuery } from "react-responsive";
+import { Link } from "react-scroll";
 
-function About({handleOpenModal}) {
-  const buttonText = "Посмотреть работы";
-  const link = "#our-works";
+function About({ handleOpenModal }) {
   const titleText = "О нас";
   const titleClass = "about__title";
 
@@ -24,13 +22,13 @@ function About({handleOpenModal}) {
           <Title titleText={ titleText } titleClass={ titleClass }/>
           <div className="about__wrapper">
             <div className="about__img-block">
-                          {
-                isMobile ?  (<img className="about__img" src={require("./img/about1.jpg")}
-                                  srcSet={`${about2x} 2x`}
-                                  alt="Установка пластиковых окон" />)
-                  :  (<img className="about__img" src={require("./img/about1desktop.jpg")}
-                           srcSet={`${aboutDesktop2x} 2x`}
-                           alt="Установка пластиковых окон" />)
+              {
+                isMobile ? ( <img className="about__img" src={ require( "./img/about1.jpg" ) }
+                                  srcSet={ `${ about2x } 2x` }
+                                  alt="Установка пластиковых окон"/> )
+                  : ( <img className="about__img" src={ require( "./img/about1desktop.jpg" ) }
+                           srcSet={ `${ aboutDesktop2x } 2x` }
+                           alt="Установка пластиковых окон"/> )
               }
 
               <div className="warranty about__warranty">
@@ -68,12 +66,21 @@ function About({handleOpenModal}) {
                   <div className="info__text">компаний партнеров</div>
                 </div>
               </div>
-              <Button text={ buttonText } link={ link } buttonClass="button-block about__button-block"/>
+              <div className="about__button-block">
+                <Link to="our-works"
+                      spy={ true }
+                      smooth={ true }
+                      duration={ 500 }
+                      className="button">
+                  Посмотреть работы
+                </Link>
+              </div>
+
             </div>
           </div>
         </div>
       </section>
-      <AboutBanner handleOpenModal={handleOpenModal} />
+      <AboutBanner handleOpenModal={ handleOpenModal }/>
     </>
   );
 }

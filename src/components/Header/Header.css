@@ -1,3 +1,8 @@
+/*.header {*/
+/*  position: fixed;*/
+/*  z-index: 50;*/
+/*}*/
+
 .header__top {
   height: 44px;
   border-bottom: 1px solid #C4C4C4;
@@ -35,7 +40,7 @@
 
 .header__grid {
   display: grid;
-  grid-template-columns: 63px auto 30px;
+  /*grid-template-columns: 63px auto 30px;*/
   grid-template-areas: "logo phone nav";
   justify-items : center;
   align-items: center;
@@ -45,5 +50,29 @@
   .header__grid {
     grid-template-columns: 73px auto auto;
     grid-template-areas: "logo nav phone";
+  }
+}
+
+.header__phone {
+  grid-area: phone;
+}
+
+@media screen and (min-width: 1200px) {
+  .header__phone {
+    order: 1;
+  }
+}
+
+
+.header__phone-text {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+@media screen and (min-width: 1200px) {
+  .header__phone-text  {
+    font-size: 14px;
+    line-height: 13px;
   }
 }

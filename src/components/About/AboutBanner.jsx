@@ -6,7 +6,6 @@ function AboutBanner({handleOpenModal}) {
   const sloganText = "Выполним любой ваш заказ в кротчайшие сроки ";
   const sloganClass = "about__slogan";
   const buttonText="Отправить заявку";
-  const buttonClass=""
 
   return (
     <section className="about__banner">

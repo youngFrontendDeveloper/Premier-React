@@ -7,10 +7,10 @@ import Phone from "../Phone/Phone";
 
 function Header() {
   const isHeader = true;
-  const phoneClass ="link phone__link"
+  const phoneClass ="phone"
 
   return (
-    <header className="header">
+    <header className="header" id="home">
       <div className="header__top">
         <div className="container center-sb">
           <Time/>
@@ -20,10 +20,10 @@ function Header() {
       <div className="header__bottom">
         <div className="container header__grid">
           <Logo isHeader={isHeader}/>
-          <p>
-            <strong className="phone__text">Бесплатный звонок:</strong>
+          <div className="header__phone">
+            <strong className="header__phone-text">Бесплатный звонок:</strong>
             <Phone phoneClass={phoneClass}/>
-          </p>
+          </div>
 
           <Navigation/>
         </div>

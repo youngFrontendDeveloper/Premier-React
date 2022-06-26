@@ -38,8 +38,13 @@
   background-color: #F1F4F5;
 }
 
+.form__item-mail {
+  margin-bottom: 32px;
+}
+
 .form__item[placeholder="Введите свое имя"]::placeholder,
-.form__item[placeholder="Введите свой телефон"]::placeholder {
+.form__item[placeholder="Введите свой телефон"]::placeholder,
+.form__item[placeholder="Введите email"]::placeholder {
   color:  #e70404;
   text-overflow:ellipsis;
 }
@@ -85,7 +90,14 @@
   z-index: 5;
 }
 
-.status {
+.form__status-success {
+  margin-top: 10px;
   color: #038c75;
-  /*font-weight: bold;*/
+  font-size: 13px;
+}
+
+.form__status-error {
+  margin-top: 10px;
+  color: #ce070f;
+  font-size: 13px;
 }

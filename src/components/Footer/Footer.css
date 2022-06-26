@@ -48,7 +48,7 @@
   display: none;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
   .footer__nav {
     display: block;
     width: 260px;
@@ -68,6 +68,7 @@
 .footer__menu-item {
   width: 168px;
   margin-bottom: 24px;
+  cursor: pointer;
 }
 
 .footer__menu-link {
@@ -90,13 +91,6 @@
 
 .footer__contacts-text {
   line-height: 21px;
-}
-
-.footer__contacts-phone {
-  display: inline-block;
-  margin-bottom: 16px;
-  font-weight: 500;
-  color: #FFFFFF;
 }
 
 .footer__contacts-address {

@@ -1,5 +1,6 @@
 import "./Menu.css";
 import { useEffect, useState } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Menu({ isMenuOpen, toggleMenuMode }) {
   const [ windowDimenion, setWindowDimenio ] = useState( {
@@ -7,7 +8,7 @@ function Menu({ isMenuOpen, toggleMenuMode }) {
     winHeight: window.innerHeight,
   } );
   const [ isMobile, setMobile ] = useState( true );
-  const mobileMenuClass =  isMobile  ? isMenuOpen  ? "menu nav__menu " : "menu nav__menu visually-hidden" : "menu nav__menu" ;
+  const mobileMenuClass = isMobile ? isMenuOpen ? "menu nav__menu " : "menu nav__menu visually-hidden" : "menu nav__menu";
 
   // Определяем размер окна браузера
 
@@ -18,32 +19,68 @@ function Menu({ isMenuOpen, toggleMenuMode }) {
     } );
   };
 
-  useEffect(()=>{
-    window.addEventListener("resize", detectSize);
-    if(windowDimenion.winWidth >= 1200) {
-      setMobile(false)
+  useEffect( () => {
+    window.addEventListener( "resize", detectSize );
+    if( windowDimenion.winWidth >= 1200 ) {
+      setMobile( false );
     }
-  },[])
+  }, [] );
 
   return (
     <ul className={ mobileMenuClass }>
       <li className="menu__item" onClick={ toggleMenuMode }>
-        <a href="/" className="link menu__link menu__link--active">О нас</a>
+        <Link to="home"
+              activeClass="menu__link--active"
+              spy={ true }
+              smooth={ true }
+              offset={ -70 }
+              duration={ 500 }
+              className="menu__link">О нас</Link>
       </li>
       <li className="menu__item" onClick={ toggleMenuMode }>
-        <a href="#our-works" className="link menu__link">Наши работы</a>
+        <Link to="our-works"
+              activeClass="menu__link--active"
+              spy={ true }
+              smooth={ true }
+              offset={ -70 }
+              duration={ 500 }
+              className="menu__link">Наши работы</Link>
       </li>
       <li className="menu__item" onClick={ toggleMenuMode }>
-        <a href="#stages-work" className="link menu__link">Этапы работы</a>
+        <Link to="stages-work"
+              activeClass="menu__link--active"
+              spy={ true }
+              smooth={ true }
+              offset={ -70 }
+              duration={ 500 }
+              className="menu__link">Этапы работы</Link>
       </li>
       <li className="menu__item" onClick={ toggleMenuMode }>
-        <a href="#products" className="link menu__link">Продукция</a>
+        <Link to="products"
+              activeClass="menu__link--active"
+              spy={ true }
+              smooth={ true }
+              offset={ -70 }
+              duration={ 500 }
+              className="menu__link">Продукция</Link>
       </li>
       <li className="menu__item" onClick={ toggleMenuMode }>
-        <a href="#reviews" className="link menu__link">Отзывы</a>
+        <Link to="reviews"
+              activeClass="menu__link--active"
+              spy={ true }
+              smooth={ true }
+              offset={ -70 }
+              duration={ 500 }
+              className="menu__link">Отзывы</Link>
       </li>
       <li className="menu__item" onClick={ toggleMenuMode }>
-        <a href="#contacts" className="link menu__link">Контакты</a>
+        <Link to="contacts"
+              activeClass="menu__link--active"
+              spy={ true }
+              smooth={ true }
+              offset={ -70 }
+              duration={ 500 }
+              className="menu__link">Контакты</Link>
       </li>
 
     </ul>
