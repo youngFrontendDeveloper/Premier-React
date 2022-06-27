@@ -16,6 +16,7 @@ function ProductsSlider() {
     autoplaySpeed: 2000,
     variableWidth: true,
     swipeToSlide: true,
+    swipe: true,
     responsive: [
       {
         breakpoint: 1200,

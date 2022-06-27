@@ -12,6 +12,7 @@ function ReviewsSlider() {
     autoplay: true,
     autoplaySpeed: 2000,
     swipeToSlide: true,
+    swipe: true,
     responsive: [
       {
         breakpoint: 768,
