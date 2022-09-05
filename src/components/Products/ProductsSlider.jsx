@@ -49,7 +49,7 @@ function ProductsSlider() {
     <Slider { ...settings } className="products__slider">
       {
         products.map( (item, index) => (
-          <ProductsSliderItem key={`slider-${index}`} item={ item } index={ index } numberOfSlides={numberOfSlides}/>
+          <ProductsSliderItem key={`slider-${index}`} item={ item } index={ index } />
 
         ) )
       }
