@@ -2,7 +2,7 @@ import "./Footer.css";
 import Logo from "../Logo/Logo";
 import Phone from "../Phone/Phone";
 import Button from "../Button/Button";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link,  } from "react-scroll";
 
 function Footer({ handleOpenModal }) {
   const isHeader = false;

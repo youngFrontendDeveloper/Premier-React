@@ -20,17 +20,17 @@ function StagesItem({ num, stagesText }) {
             </span>
         { isMobile ? (
           num == 1 ? (
-            <Img1 className="stages__item-arr1"/>
+            <Img1 className="stages__item-arr1" loading="lazy"/>
 
           ) : num == 2 ? (
-            <Img2 className="stages__item-arr2"/>
+            <Img2 className="stages__item-arr2" loading="lazy"/>
 
           ) : null
         ) : (
           num == 1 ? (
-            <ImgDesk1 className="stages__item-arr1-desktop"/>
+            <ImgDesk1 className="stages__item-arr1-desktop" loading="lazy"/>
           ) : num == 2 ? (
-            <ImgDesk2 className="stages__item-arr2-desktop"/>
+            <ImgDesk2 className="stages__item-arr2-desktop" loading="lazy"/>
           ) : null
         )
         }

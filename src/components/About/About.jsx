@@ -24,7 +24,7 @@ function About({ handleOpenModal }) {
             <div className="about__img-block">
               {
                 isMobile ? ( <img className="about__img" src={ require( "./img/about1.jpg" ) }
-                                  srcSet={ `${ about2x } 2x` }
+                                  srcSet={ `${ about2x } 2x` } loading="lazy"
                                   alt="Установка пластиковых окон"/> )
                   : ( <img className="about__img" src={ require( "./img/about1desktop.jpg" ) }
                            srcSet={ `${ aboutDesktop2x } 2x` }

@@ -11,12 +11,12 @@ function GalleryItem({ item }) {
         <MediaQuery minWidth={ 768 }>
           <img className="card__img" src={  item.imgDesk1  }
                srcSet={ `${ item.imgDesk2 } 2x` }
-               alt="Наша продукция"/>
+               loading="lazy" alt="Наша продукция"/>
         </MediaQuery>
         <MediaQuery maxWidth={ 768 }>
           <img className="card__img" src={  item.img1  }
                srcSet={ `${ item.img2 } 2x` }
-               alt="Наша продукция"
+               loading="lazy" alt="Наша продукция"
           />
         </MediaQuery>
 

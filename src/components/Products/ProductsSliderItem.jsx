@@ -11,7 +11,7 @@ function ProductsSliderItem({ item, }) {
       {
         isMobile ? ( <img src={ item.img1 } alt="Наши работы"/> ) :
           (
-            <img src={ item.imgDesk1 } srcSet={ `${ item.imgDesk1 } 1x, ${ item.imgDesk2 } 2x` } alt="Наши работы"/>
+            <img src={ item.imgDesk1 } srcSet={ `${ item.imgDesk1 } 1x, ${ item.imgDesk2 } 2x` } loading="lazy" alt="Наши работы"/>
           )
       }
     </>
