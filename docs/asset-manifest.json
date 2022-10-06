@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.348fb1ce.css",
-    "main.js": "./static/js/main.9a7788a8.js",
+    "main.js": "./static/js/main.f1223b3b.js",
     "static/media/banner@2x.jpg": "./static/media/banner@2x.933eab0fb4435f8c6da9.jpg",
     "static/media/about-2-desktop@2x.jpg": "./static/media/about-2-desktop@2x.30d0055c2adb3912e91e.jpg",
     "static/media/banner-mb@2x.jpg": "./static/media/banner-mb@2x.006606bd98e8b4b332d8.jpg",
@@ -37,29 +37,25 @@
     "static/media/slick.svg": "./static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "./index.html",
     "static/media/wifi.svg": "./static/media/wifi.7a126c3613c2f26b04fb3b7c6041c6dc.svg",
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "static/media/stages-3.svg": "./static/media/stages-3.388084e288957b0aeb31.svg",
     "static/media/mobile-signal.svg": "./static/media/mobile-signal.8cb5fac7cc6a4046192f6693e163aaa4.svg",
-    "index.html": "./index.html",
     "static/media/stages-1.svg": "./static/media/stages-1.cb395aa37f0ef1c95f5c.svg",
     "static/media/buttery.svg": "./static/media/buttery.d67738a772056cc6c9f5f317a8117b3b.svg",
     "static/media/warranty-bg.svg": "./static/media/warranty-bg.0cd81edbfb1752b632f1.svg",
     "static/media/check.svg": "./static/media/check.0071c477d17cce941016.svg",
-    "static/media/dashed-bottom-desktop.svg": "./static/media/dashed-bottom-desktop.e5640a41c38f748ceb19991ffd4378a4.svg",
     "static/media/quotes.svg": "./static/media/quotes.6992c85cbab99c9aa10d.svg",
     "static/media/menu-close.svg": "./static/media/menu-close.5313777c51ba999d32e5.svg",
-    "static/media/dashed-top.svg": "./static/media/dashed-top.36f2d5885b0b2b101b62e4f4b9751234.svg",
     "static/media/arr-right.svg": "./static/media/arr-right.7f7aa462eda4e048f282.svg",
     "static/media/arr-left.svg": "./static/media/arr-left.a76a9c10d2c8565efba1.svg",
     "static/media/arrow.svg": "./static/media/arrow.a1b861f30b03fb353acf52896b208ae3.svg",
-    "static/media/dashed-top-desktop.svg": "./static/media/dashed-top-desktop.ba5e0e06935d3ce480ab2aef2aa31467.svg",
-    "static/media/dashed-bottom.svg": "./static/media/dashed-bottom.5473f4619e1d150b78f833853936d9ac.svg",
     "main.348fb1ce.css.map": "./static/css/main.348fb1ce.css.map",
-    "main.9a7788a8.js.map": "./static/js/main.9a7788a8.js.map"
+    "main.f1223b3b.js.map": "./static/js/main.f1223b3b.js.map"
   },
   "entrypoints": [
     "static/css/main.348fb1ce.css",
-    "static/js/main.9a7788a8.js"
+    "static/js/main.f1223b3b.js"
   ]
 }
