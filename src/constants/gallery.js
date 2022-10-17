@@ -28,7 +28,7 @@ export const gallery = [
   },
   {
     id: "gal-4",
-    title: "Алюминивые конструкции",
+    title: "Алюминевые конструкции",
     text: "Равным образом сложившаяся структура организации",
     imgDesk1: "./img/works-4-desktop.jpg",
     imgDesk2: "./img/works-4-desktop@2x.jpg",
