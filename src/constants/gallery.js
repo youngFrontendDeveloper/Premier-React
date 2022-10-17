@@ -7,7 +7,6 @@ export const gallery = [
     imgDesk2: "./img/works-1-desktop@2x.jpg",
     img1: "./img/works-1.jpg",
     img2: "./img/works-1@2x.jpg",
-
   },
   {
     id: "gal-2",
@@ -17,7 +16,6 @@ export const gallery = [
     imgDesk2: "./img/works-2-desktop@2x.jpg",
     img1: "./img/works-2.jpg",
     img2: "./img/works-2@2x.jpg",
-
   },
   {
     id: "gal-3",
@@ -27,7 +25,6 @@ export const gallery = [
     imgDesk2: "./img/works-3-desktop@2x.jpg",
     img1: "./img/works-3.jpg",
     img2: "./img/works-3@2x.jpg",
-
   },
   {
     id: "gal-4",
@@ -37,7 +34,6 @@ export const gallery = [
     imgDesk2: "./img/works-4-desktop@2x.jpg",
     img1: "./img/works-4.jpg",
     img2: "./img/works-4@2x.jpg",
-
   },
   {
     id: "gal-5",
@@ -47,6 +43,5 @@ export const gallery = [
     imgDesk2: "./img/works-5-desktop@2x.jpg",
     img1: "./img/works-5.jpg",
     img2: "./img/works-5@2x.jpg",
-
-  }
+  },
 ];
